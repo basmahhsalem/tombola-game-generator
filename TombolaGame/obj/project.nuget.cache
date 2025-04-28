@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "t1g1eN1HlKc=",
+  "dgSpecHash": "CokQB3m++HA=",
   "success": true,
   "projectFilePath": "/Users/basmasalem/Documents/2025/TombolaGame/TombolaGame/TombolaGame.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "/Users/basmasalem/.nuget/packages/skiasharp/3.116.1/skiasharp.3.116.1.nupkg.sha512",
+    "/Users/basmasalem/.nuget/packages/skiasharp.nativeassets.macos/3.116.1/skiasharp.nativeassets.macos.3.116.1.nupkg.sha512",
+    "/Users/basmasalem/.nuget/packages/skiasharp.nativeassets.win32/3.116.1/skiasharp.nativeassets.win32.3.116.1.nupkg.sha512",
+    "/Users/basmasalem/.nuget/packages/skiasharp.views/3.116.1/skiasharp.views.3.116.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SkiaSharp.Views 3.116.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "SkiaSharp.Views",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
